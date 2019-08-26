@@ -54,5 +54,16 @@ class BullsEyeTests: XCTestCase {
     // 3. Then
     XCTAssertEqual(sut.scoreRound, 95, "Score computed from guess is wrong")
   }
+  
+  func testScoreIsComputedWhenGuessLTTarget() {
+    // 1. given
+    let guess = sut.targetValue - 5
+    
+    // 2. when
+    sut.check(guess: guess)
+    
+    // 3. then
+    XCTAssertEqual(sut.scoreRound, 95, "Core computed from guess is wrong")
+  }
 
 }
