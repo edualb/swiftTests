@@ -38,6 +38,16 @@
                ReferencedContainer = "container:BullsEye.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDA59FEF2315A8ED00A77222"
+               BuildableName = "BullsEyeUITests.xctest"
+               BlueprintName = "BullsEyeUITests"
+               ReferencedContainer = "container:BullsEye.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
